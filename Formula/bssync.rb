@@ -1,13 +1,13 @@
 class Bssync < Formula
   desc "Two-way sync between local markdown files and a BookStack wiki"
   homepage "https://github.com/alexamber/bssync"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/alexamber/bssync/releases/download/v0.2.0/bssync-macos-arm64.tar.gz"
-      sha256 "a3e37402b984f45d539ae5137207bf551a9cd7fc1e293d787b82a2916af38c43"
+      url "https://github.com/alexamber/bssync/releases/download/v0.2.1/bssync-macos-arm64.tar.gz"
+      sha256 "92c7dc2f44eed73d44d44fe44109638ff94eeed8510d17d8ad927d56e136262b"
 
       def install
         libexec.install Dir["*"]
@@ -18,8 +18,8 @@ class Bssync < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/alexamber/bssync/releases/download/v0.2.0/bssync-linux-x86_64.tar.gz"
-      sha256 "f4c89d72fe474325243da1e60c84af3f8d0f6e4cf80ea70115292d9c529eea8b"
+      url "https://github.com/alexamber/bssync/releases/download/v0.2.1/bssync-linux-x86_64.tar.gz"
+      sha256 "9acd5a41ace8ac2609b1a31a0792f02b2f7bd051d3bc739f4c3c7ac4bb11c1fc"
 
       def install
         libexec.install Dir["*"]
